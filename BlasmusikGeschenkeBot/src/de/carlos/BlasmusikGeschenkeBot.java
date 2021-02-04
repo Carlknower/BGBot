@@ -61,7 +61,7 @@ public class BlasmusikGeschenkeBot {
 		
 		DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.create(GatewayIntent.GUILD_MESSAGES, GatewayIntent.GUILD_MEMBERS, GatewayIntent.DIRECT_MESSAGES, GatewayIntent.GUILD_PRESENCES, GatewayIntent.GUILD_VOICE_STATES);
 		
-		builder.setToken("Nzk5OTQ4NDc2MjIxODgyMzgw.YALAEw.rt9QeLDxs9n_E52ByuEKe0dzEvo");
+		builder.setToken("HIERSTEHTEIGENTLICHDASTOKEN");
 	//builder.setActivity(Activity.playing("Trompete"));
 	builder.setActivity(Activity.listening("Blasmusik"));
 	builder.setStatus(OnlineStatus.ONLINE);
